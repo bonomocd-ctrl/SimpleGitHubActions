@@ -17,6 +17,7 @@ TEST_CASE("testing the factorial function")
     CHECK(factorial(2) == 2);
     CHECK(factorial(3) == 6);
     CHECK(factorial(10) == 3628800);
+    CHECK(factorial(11) == 39916800);
 }
 #else
 int main()
